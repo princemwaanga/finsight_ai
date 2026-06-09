@@ -6,7 +6,7 @@ class ApiService {
   // Override at build time: flutter run --dart-define=API_URL=http://192.168.x.x:8000
   static const baseUrl = String.fromEnvironment(
     'API_URL',
-    defaultValue: 'http://192.168.1.179:8000',
+    defaultValue: 'http://YOUR_IP_ADDRESS:8000',
   );
 
   // Reuse a single HTTP client — avoids creating a new TCP connection per request
