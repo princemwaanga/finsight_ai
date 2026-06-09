@@ -215,12 +215,12 @@ http://localhost:8000
 For Android devices:
 
 flutter run \
---dart-define=API_URL=http://192.168.1.100:8000
+--dart-define=API_URL=http://YOUR_IP_ADDRESS:8000
 
 Example:
 
 flutter run \
---dart-define=API_URL=http://192.168.0.15:8000
+--dart-define=API_URL=http:/YOUR_IP_ADDRESS:8000
 Application Flow
 1. Upload Statement
 User Uploads CSV
