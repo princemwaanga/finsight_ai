@@ -257,9 +257,9 @@ Receive a complete financial report generated from your actual spending patterns
 ### 1. Create Database
 
 ```bash
-sudo -u postgres psql -c "CREATE USER phi4app WITH PASSWORD 'phi4app123';"
+sudo -u postgres psql -c "CREATE USER phi4app WITH PASSWORD 'YOUR_PASSWORD';"
 
-sudo -u postgres psql -c "CREATE DATABASE finsight_db OWNER phi4app;"
+sudo -u postgres psql -c "CREATE DATABASE finsight_db OWNER YOUR_NAME;"
 
 sudo -u postgres psql -d finsight_db -f backend/schema.sql
 ```
@@ -299,7 +299,7 @@ hf_hub_download(
 ### 4. Configure Environment
 
 ```env
-DATABASE_URL=postgresql://phi4app:phi4app123@localhost:5432/finsight_db
+DATABASE_URL=postgresql://DB_USER:DB_PASSWORD@localhost:5432/finsight_db
 
 MODEL_PATH=../models/Phi-4-mini-instruct-Q4_K_M.gguf
 
