@@ -208,6 +208,7 @@ Date,Description,Amount,Balance
 2025-01-02,SALARY CREDIT,25500.00,30500.00
 2025-01-03,SHOPRITE LUSAKA,-450.00,29050.00
 ```
+(All sample transaction data are fictional)
 
 ---
 
