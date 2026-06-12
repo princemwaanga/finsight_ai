@@ -8,7 +8,7 @@ load_dotenv()
 
 DATABASE_URL = os.getenv(
     "DATABASE_URL",
-    "postgresql://phi4app:phi4app123@localhost:5432/finsight_db"
+    "postgresql://DB_YOUR_NAME:DB_PASSWORD@localhost:5432/finsight_db"
 )
 
 engine = create_engine(DATABASE_URL, pool_pre_ping= True, pool_size= 5)
