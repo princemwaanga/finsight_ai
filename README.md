@@ -258,7 +258,7 @@ Receive a complete financial report generated from your actual spending patterns
 ### 1. Create Database
 
 ```bash
-sudo -u postgres psql -c "CREATE USER phi4app WITH PASSWORD 'YOUR_PASSWORD';"
+sudo -u postgres psql -c "CREATE USER YOUR_NAME WITH PASSWORD 'YOUR_PASSWORD';"
 
 sudo -u postgres psql -c "CREATE DATABASE finsight_db OWNER YOUR_NAME;"
 
